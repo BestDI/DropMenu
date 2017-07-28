@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CollapseView">
+        <attr name="contentView" format="reference" />
+        <attr name="contentViewBg" format="reference" />
+        <attr name="headerType" format="enum">
+            <enum name="title" value="1" />
+            <enum name="normal" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>
